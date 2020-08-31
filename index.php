@@ -113,7 +113,7 @@
           <i class="fas fa-phone-alt fas-fw font-aw"></i>
           <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Type Your phone" name="phone" value="<?php if(isset($phone)){echo $phone;}?>">
           <div class="alert alert-danger private-alert">
-            Username Must Be Larger Than <strong>10</strong> Numbers
+            This Feild Must Be Larger Than <strong>10</strong> Numbers
           </div>
         </div>
           <!--<?php
