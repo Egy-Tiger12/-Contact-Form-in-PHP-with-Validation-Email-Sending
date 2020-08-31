@@ -68,5 +68,9 @@ textarea {
   padding: 5px 10px;
   display: none;
 }
+.alert-success {
+  max-width: 400px;
+  margin: 50px auto;
+}
 
 
