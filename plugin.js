@@ -2,11 +2,11 @@
 $(document).ready(function () {
     'use strict';
 
-    let userError = true,
+    var userError = true,
 
         emailError = true;
 
-    function checkError() {
+    //function checkError() {
 
     /*  if (userError === true || emailError === true) {
 
@@ -42,7 +42,7 @@ $(document).ready(function () {
 
     $('.email').blur(function () {
 
-        if ($(this).val() ==='') {
+        if ($(this).val() === '') {
 
             $(this).css('border', '1px solid #f00');
 
@@ -67,16 +67,15 @@ $(document).ready(function () {
 
     $('.contact-form').submit(function (e) {
 
-      if (userError === true || emailError === true) {
+        if (userError === true || emailError === true) {
 
-        e.preventDefault();
+            e.preventDefault();
 
-        $('.form-control, .email').blur();
+            $('.form-control, .email').blur();
 
-      }
+        }
 
 
 
     });
-
 });
